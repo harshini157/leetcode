@@ -4,10 +4,10 @@ class Solution {
 
         for (int i = n - 1; i >= 0; i--) {
             if (digits[i] < 9) {
-                digits[i]++;   // just add 1
-                return digits; // done
+                digits[i]++;   
+                return digits; 
             }
-            digits[i] = 0; // carry over
+            digits[i] = 0; 
         }
 
        
